@@ -26,7 +26,11 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone), containsString(someone));
   }
-  
+
+  @Test
+  public void internationally_Field() {
+     assertTrue(false);
+  }
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
